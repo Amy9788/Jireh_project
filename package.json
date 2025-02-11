@@ -1,0 +1,26 @@
+{
+  "name": "jireh_project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amy9788/Jireh_project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Amy9788/Jireh_project/issues"
+  },
+  "homepage": "https://github.com/Amy9788/Jireh_project#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2",
+    "netlify-cli": "^18.0.4",
+    "netlify-lambda": "^2.0.16",
+    "serverless-http": "^3.2.0"
+  }
+}
