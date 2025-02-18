@@ -4,10 +4,10 @@
 .about-main{
     @include center-container;
     padding: $md-padding;
-    padding-top: 15rem;
+    padding-top: 5rem;
     @include respond(tab-port){
         padding: $sm-padding;
-        padding-top: 15rem;
+        padding-top: 5rem;
     }
 }
 

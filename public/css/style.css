@@ -478,7 +478,8 @@ button {
   padding-bottom: 1.5rem;
   font-family: "Lato", serif;
   font-weight: 600;
-  font-size: 2rem; }
+  font-size: 2rem;
+  z-index: 1500; }
   .nav__wrapper {
     max-width: 140rem;
     margin-left: auto;
@@ -716,11 +717,11 @@ button {
   margin-left: auto;
   margin-right: auto;
   padding: 0 6.4rem 0 6.4rem;
-  padding-top: 15rem; }
+  padding-top: 5rem; }
   @media only screen and (max-width: 56.25em) {
     .about-main {
       padding: 0 3.2rem 0 3.2rem;
-      padding-top: 15rem; } }
+      padding-top: 5rem; } }
 
 .story-mission-section {
   max-width: 140rem;
@@ -785,11 +786,11 @@ button {
   margin-left: auto;
   margin-right: auto;
   padding: 0 6.4rem 0 6.4rem;
-  padding-top: 15rem;
+  padding-top: 5rem;
   margin-bottom: 6rem; }
 
 .product-item-main {
-  padding-top: 15rem; }
+  padding-top: 5rem; }
 
 .product-item-content {
   max-width: 140rem;
