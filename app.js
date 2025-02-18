@@ -1,3 +1,4 @@
+const port = 3000;
 const path = require('path');
 const fs = require('fs'); // fs module - load the JSON file and pass the data to EJS templates
 
@@ -69,7 +70,7 @@ app.get('/products/opp-film', (req, res) => {
   res.render('products/opp-film');
 });
 // Server setup 
-app.listen(4000, function (req, res) { 
-	console.log('Server running at http://127.0.0.1:4000');
+app.listen(port, function (req, res) { 
+	console.log(`Server running at on port ${port}`);
 });
 
