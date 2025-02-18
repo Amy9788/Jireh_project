@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Rashi+Hebrew:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Rashi+Hebrew:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>LDPE Film</title>
+</head>
+<body class="darker-white-col-bg">
+    <%- include('../partials/nav') %>
+    <main class="product-item-main">
+        <div class="product-item-content flex-multi-imgs-layout">
+            <div class="flex-multi-imgs-layout__text text-width-md">
+                <h2 class="heading-secondary">
+                    <span class="underline">
+                        <%= curr_lang_file["products_page/ldpe_film"].heading.heading_part1 %>
+                    </span>
+                    <%= curr_lang_file["products_page/ldpe_film"].heading.heading_part2 %>
+                </h2>
+                <p class="md-font-desc sx-margin-bottom">
+                    <%= curr_lang_file["products_page/ldpe_film"].desc %>
+                </p>
+                <p class="md-font-desc">
+                    <%= curr_lang_file["products_page/ldpe_film"].gen_desc %>
+                </p>
+            </div>
+            <div class="flex-multi-imgs-layout__img">
+                <div class="flex-multi-imgs-layout__img-item">
+                    <img src="/assets/img/products_img/ldpe_film_img/ldpe_film_img1.svg"/>
+                </div>
+                <div class="flex-multi-imgs-layout__img-item">
+                    <img src="/assets/img/products_img/ldpe_film_img/ldpe_film_img2.svg"/>
+                </div>
+                <div class="flex-multi-imgs-layout__img-item">
+                    <img src="/assets/img/products_img/ldpe_film_img/ldpe_film_img3.svg"/>
+                </div>
+                <div class="flex-multi-imgs-layout__img-item">
+                    <img src="/assets/img/products_img/ldpe_film_img/ldpe_film_img4.svg"/>
+                </div>
+            </div>
+        </div>
+    </main>
+    <%- include('../partials/footer') %>
+    <script src="/js/index.js"></script>
+</body>
+</html>

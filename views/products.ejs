@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Rashi+Hebrew:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Rashi+Hebrew:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Products</title>
+</head>
+<body class="products-body">
+    <%- include('partials/nav') %>
+    <main class="products-main">
+        <h4 class="heading-quaternary text-center md-margin-bottom">
+            <span class="underline"><%= curr_lang_file["products_page"].heading.heading_part1%></span>
+            <%= curr_lang_file["products_page"].heading.heading_part2%>
+        </h4>
+        <div class="clickable-card">
+            <% for (let key in curr_lang_file["products_page"]["cards"]) { %>
+                <a href="<%= curr_lang_file["products_page"]["cards"][key].href %>" class="clickable-card__item">
+                    <div class="clickable-card__item-img">
+                        <img src="<%= curr_lang_file["products_page"]["cards"][key].src%>"/>
+                    </div>
+                    <div class="clickable-card__item-title">
+                        <%= curr_lang_file["products_page"]["cards"][key].title%>
+                    </div>
+                </a>
+            <% } %>
+
+        </div>
+    </main>
+    <%- include('partials/footer') %>
+    <script src="/js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,234 @@
+{
+    "nav": {
+        "nav_item1":{
+            "name": "Trang Chủ",
+            "href": "/home",
+            "classname": "nav__list-item-link"
+        },
+        "nav_item2":{
+            "name":"Giới Thiệu",
+            "href": "/about",
+            "classname": "nav__list-item-link"
+        },
+        "nav_item3":{
+            "name":"Sản Phẩm",
+            "href": "/products",
+            "classname": "nav__list-item-link"
+        },
+        "nav_item4":{
+            "name":"Liên Hệ",
+            "href": "mailto:info@jirehltd.com",
+            "classname": "btn-sm-blue"
+        }
+    },
+    "home_page": {
+        "header": {
+            "heading_part1": "Nhà Cung Cấp Tin Cậy Của Bạn",
+            "heading_part2": "Vật Liệu Tái Chế",
+            "desc": "Hãy tin tưởng chúng tôi để luôn mang đến dịch vụ chất lượng vượt xa mong đợi của bạn.",
+            "btn": "Liên hệ ngay"
+        },
+        "main": {
+            "expansion_overview_section": {
+                "heading_part1": "Jireh",
+                "heading_part2": "International LTD",
+                "desc": "Jireh International LTD đang mở rộng tầm ảnh hưởng của mình trong thương mại toàn cầu, tập trung mạnh mẽ vào Trung Quốc, Indonesia và Việt Nam. Từ năm 2008, chúng tôi đã xuất khẩu các sản phẩm công nghiệp đến các khu vực này và đa dạng hóa chúng sang hàng tiêu dùng như mỹ phẩm và những sản phẩm có giá trị cao. Với chiến lược là tập chung vào các đối tác bản địa, chúng tôi lên kế hoạch đầu tư tại Việt Nam để củng cố vị thế thị trường của mình.",
+                "btn": "Tìm hiểu thêm"
+            },
+            "why_jireh_section": {
+                "heading_part1": "Tại Sao",
+                "heading_part2": "Chọn Jireh?",
+                "projects__completed": "Dự Án Hoàn Thành",
+                "years_experience": "Năm Kinh Nghiệm",
+                "professional": "Nhân Viên Chuyên Nghiệp",
+                "partnerships": "Hợp Tác Dài Hạn"
+            },
+            "services_section": {
+                "heading_part1": "Dịch Vụ",
+                "heading_part2": "Của Chúng Tôi",
+                "desc": "Chúng tôi chuyên mua bán phế liệu nhựa và hạt nhựa tái chế. Với các loại vật liệu bao gồm phế liệu từ nhà máy, công nghiệp và nông nghiệp, chúng tôi cung cấp nhiều loại nhựa như LDPE, PET, HDPE, PVC, PP, EPS, PMMA, ABS, PC và nhiều loại khác nữa."
+            }
+        }
+    },
+    "about_page":{
+        "heading":{
+            "heading_part1": "Giới thiệu về",  
+            "heading_part2": "Jireh" 
+        },
+        "desc":"Kết nối thị trường toàn cầu với nhựa chất lượng cao và hạt nhựa tái chế",
+        "story_mission_section":{
+            "heading":"Câu Chuyện và Sứ Mệnh của chúng tôi",
+            "desc":"JIREH International Ltd. là công ty giao dịch và mua bán phế liệu nhựa, hạt nhựa tái chế từ năm 2018. Chúng tôi rất tự hào về việc phục vụ khách hàng trên toàn thế giới, mọi người tin tưởng vào cách làm việc chuyên nghiệp của chúng tôi về việc sắp xếp các lô hàng, kể cả lô hàng nhỏ lẫn lô hàng lớn."
+        },
+        "our_journey_section":{
+            "heading":{
+                "heading_part1": "Hành ",  
+                "heading_part2": "trình của chúng tôi"
+            },
+            "desc": "Jireh xuất khẩu sản phẩm công nghiệp đến Trung Quốc và các nước Đông Nam Á, bao gồm Việt Nam, Indonesia và Malaysia, từ năm 2008. Từ năm 2020, chúng tôi đã mở rộng hoạt động vào ngành công nghiệp nhựa, chuyên về phế liệu nhựa và hạt nhựa tái chế được nhập khẩu từ Nhật Bản, Hàn Quốc, Châu Âu, Bắc Mỹ, Úc, New Zealand và Trung Đông."
+        },
+        "trusted_supply_section":{
+            "heading":{
+                "heading_part1": "Chuỗi ",  
+                "heading_part2": " cung ứng ",
+                "heading_part3": " và logistics đáng tin cậy"
+            },
+            "cards":{
+                "item1":{
+                    "item_title": "Giá cả cạnh tranh",
+                    "item_desc": "Chúng tôi đảm bảo các sản phẩm của mình có giá cả phải chăng nhưng vẫn duy trì chất lượng mang lại cho khách hàng giá trị tốt nhất cho khoản đầu tư của họ."
+                },
+                "item2":{
+                    "item_title": "Giao hàng đúng hẹn",
+                    "item_desc": "Đội ngũ logistics hiệu quả của chúng tôi đảm bảo giao hàng đúng hẹn, mang lại sự tin cậy và đảm bảo khách hàng nhận được đơn hàng của mình đúng thời hẹn."
+                },
+                "item3":{
+                    "item_title": "Chất lượng",
+                    "item_desc": "Chúng tôi tuân thủ các tiêu chuẩn và quy trình nghiêm ngặt, ưu tiên chất lượng sản phẩm, thúc đẩy sự hài lòng của khách hàng và niềm tin vào thương hiệu của chúng tôi."
+                },
+                "item4":{
+                    "item_title": "Nguồn cung cấp ổn định",
+                    "item_desc": "Hệ thống quản lý kho hàng của chúng tôi sẽ đảm bảo nguồn cung cấp sản phẩm ổn định, đáng tin cậy, và giảm thiểu sự gián đoạn cho khách hàng."
+                }
+            }
+        },
+        "get_in_touch_section":{
+            "heading":"Liên hệ ngay hôm nay!",
+            "desc":{
+                "desc_part1":"Liên hệ với chúng tôi ngay hôm nay để thảo luận và tìm ra giải pháp tốt nhất cho nhu cầu của bạn. Gọi cho chúng tôi theo số",
+                "desc_part2":"hoặc liên hệ qua email tại"
+            }
+        }
+    },
+
+    "products_page":{
+        "heading":{
+            "heading_part1": "Sản ",
+            "heading_part2": "Phẩm"
+        },
+        "cards":{
+            "item1":{
+                "title":"Cuộn PVC",
+                "src":"/assets/img/products_img/pvc_roll.svg",
+                "href":"#"
+            },
+            "item2":{
+                "title":"LDPE Film",
+                "src":"/assets/img/products_img/ldpe_film.svg",
+                "href":"#"
+            },
+            "item3":{
+                "title":"PS Cục",
+                "src":"/assets/img/products_img/ps_lump.svg",
+                "href":"#"
+            },
+            "item4":{
+                "title":"Tấm PET tái chế",
+                "src":"/assets/img/products_img/pet_sheet.svg",
+                "href":"#"
+            },
+            "item5":{
+                "title":"Vụn Chai PET",
+                "src":"/assets/img/products_img/pet_bottle.svg",
+                "href":"#"
+            },
+            "item6":{
+                "title":"Vụn Tái Chế PVC",
+                "src":"/assets/img/products_img/pvc_regrind.svg",
+                "href":"#"
+            },
+            "item7":{
+                "title":"Vụn Tái Chế HDPE",
+                "src":"/assets/img/products_img/hdpe_regrind.svg",
+                "href":"#"
+            },
+            "item8":{
+                "title":"OPP Film",
+                "src":"/assets/img/products_img/opp_film.svg",
+                "href":"#"
+            }
+        }  
+        
+    },
+    "products_page/pvc_roll":{
+        "heading":{
+            "heading_part1": "Cuộn",
+            "heading_part2": "PVC"
+        },
+        "desc": "Kho hàng của chúng tôi tự hào khi cung cấp các cuộn PVC cùng với các vật liệu khác như LDPE, PET, HDPE. Các cuộn PVC mang lại độ bền và tính linh hoạt, lý tưởng cho các ứng dụng từ đóng gói đến xây dựng.",
+        "gen_desc":"Xin hãy liên hệ với chúng tôi để thảo luận về các điều khoản kinh doanh thuận lợi. Chúng tôi cam kết sẽ cung cấp giá cả cạnh tranh để đáp ứng yêu cầu của bạn. Chúng tôi trông chờ sự liên hệ từ bạn và hy vọng có cơ hội xây dựng một mối quan hệ kinh doanh lâu dài."
+    },
+    "products_page/ldpe_film":{
+        "heading":{
+            "heading_part1": "LDPE ",
+            "heading_part2": "Film"
+        },
+        "desc": "Ngoài LDPE Film, kho hàng của chúng tôi còn có các cuộn PVC và một loạt các vật liệu như PET, HDPE và nhiều sản phẩm khác. LDPE Film mang lại tính linh hoạt cho các ứng dụng đa dạng, từ đóng gói đến sử dụng trong công nghiệp.",
+        "gen_desc":"Xin hãy liên hệ với chúng tôi để thảo luận về các điều khoản kinh doanh thuận lợi. Chúng tôi cam kết sẽ cung cấp giá cả cạnh tranh để đáp ứng yêu cầu của bạn. Chúng tôi trông chờ sự liên hệ từ bạn và hy vọng có cơ hội xây dựng một mối quan hệ kinh doanh lâu dài."
+    },
+    "products_page/ps_lump":{
+        "heading":{
+            "heading_part1": "PS ",
+            "heading_part2": "Cục"
+        },
+        "desc": "Giới thiệu PS Cục- một phần không thể thiếu trong kho hàng của chúng tôi, đồng hành cùng với LDPE, PET, HDPE và nhiều sản phẩm khác. Nổi tiếng với tính linh hoạt và độ bền, PS Cục là một giải pháp tốt cho nhiều ứng dụng khác nhau. Từ đóng gói đến xây dựng, PS Cục cho thấy sự đa dạng tiềm năng của nhựa.",
+        "gen_desc":"Xin hãy liên hệ với chúng tôi để thảo luận về các điều khoản kinh doanh thuận lợi. Chúng tôi cam kết sẽ cung cấp giá cả cạnh tranh để đáp ứng yêu cầu của bạn. Chúng tôi trông chờ sự liên hệ từ bạn và hy vọng có cơ hội xây dựng một mối quan hệ kinh doanh lâu dài."
+    },
+    "products_page/pet_Sheet":{
+        "heading":{
+            "heading_part1": "Tấm ",
+            "heading_part2": "PET tái chế"
+        },
+        "desc": "Giới thiệu Tấm PET tái chế - một sản phẩm quan trọng trong kho hàng của chúng tôi, cùng với LDPE, PS lump, HDPE và nhiều sản phẩm khác. Nổi tiếng với tính linh hoạt và tính bền vững, Tấm PET tái chế nổi bật trong nhiều ứng dụng khác nhau. Cho dù được sử dụng trong đóng gói, xây dựng, hay nhiều lĩnh vực khác.",
+        "gen_desc":"Xin hãy liên hệ với chúng tôi để thảo luận về các điều khoản kinh doanh thuận lợi. Chúng tôi cam kết sẽ cung cấp giá cả cạnh tranh để đáp ứng yêu cầu của bạn. Chúng tôi trông chờ sự liên hệ từ bạn và hy vọng có cơ hội xây dựng một mối quan hệ kinh doanh lâu dài."
+    },
+    "products_page/pet_bottle":{
+        "heading":{
+            "heading_part1": "Vụn ",
+            "heading_part2": "Chai PET"
+        },
+        "desc": "Giới thiệu Vụn Chai PET - một thành phần quan trọng trong kho hàng của chúng tôi, cùng với LDPE, PS lump, HDPE và nhiều loại khác. Được công nhận vì tính linh hoạt và tính thân thiện với môi trường, Vụn Chai PET là sự lựa chọn nổi bật cho nhiều ứng dụng khác nhau. Cho dù được sử dụng trong đóng gói, xây dựng, hoặc các lĩnh vực khác, Vụn Chai PET đều thể hiện sự tiềm năng đa dạng của nhựa.",
+        "gen_desc":"Xin hãy liên hệ với chúng tôi để thảo luận về các điều khoản kinh doanh thuận lợi. Chúng tôi cam kết sẽ cung cấp giá cả cạnh tranh để đáp ứng yêu cầu của bạn. Chúng tôi trông chờ sự liên hệ từ bạn và hy vọng có cơ hội xây dựng một mối quan hệ kinh doanh lâu dài."
+    },
+    "products_page/pvc_regrind":{
+        "heading":{
+            "heading_part1": "Vụn ",
+            "heading_part2": "Tái Chế PVC"
+        },
+        "desc": "Giới thiệu vụn tái chế PVC - một sản phẩm quan trọng trong kho hàng của chúng tôi, cùng với LDPE, PS lump, HDPE và nhiều sản phẩm khác. Nổi tiếng với tính linh hoạt và độ bền, vụn tái chế PVC đã tìm thấy vị trí của mình trong nhiều ứng dụng khác nhau. Cho dù được sử dụng trong đóng gói, xây dựng, hay nhiều lĩnh vực khác.",
+        "gen_desc":"Xin hãy liên hệ với chúng tôi để thảo luận về các điều khoản kinh doanh thuận lợi. Chúng tôi cam kết sẽ cung cấp giá cả cạnh tranh để đáp ứng yêu cầu của bạn. Chúng tôi trông chờ sự liên hệ từ bạn và hy vọng có cơ hội xây dựng một mối quan hệ kinh doanh lâu dài."
+    },
+    "products_page/hdpe_regrind":{
+        "heading":{
+            "heading_part1": "HDPE ",
+            "heading_part2": "Regrind"
+        },
+        "desc": "Giới thiệu HDPE Regrind - một thành phần quan trọng trong kho hàng của chúng tôi, đứng vững giữa LDPE, PS lump, PVC Regrind, và nhiều sản phẩm khác. Được đánh giá cao vì tính linh hoạt, HDPE Regrind là sự lựa chọn ưa thích trong nhiều ứng dụng khác nhau. Dù được sử dụng trong việc đóng gói, xây dựng hoặc các lĩnh vực khác, HDPE Regrind là một minh chứng cho sự đa dạng của nhựa.",
+        "gen_desc":"Xin hãy liên hệ với chúng tôi để thảo luận về các điều khoản kinh doanh thuận lợi. Chúng tôi cam kết sẽ cung cấp giá cả cạnh tranh để đáp ứng yêu cầu của bạn. Chúng tôi trông chờ sự liên hệ từ bạn và hy vọng có cơ hội xây dựng một mối quan hệ kinh doanh lâu dài."
+    },
+    "products_page/opp_film":{
+        "heading":{
+            "heading_part1": "OPP ",
+            "heading_part2": "Film"
+        },
+        "desc": "Ngoài OPP Film, kho hàng của chúng tôi còn bao gồm LDPE Film, cuộn PVC và một loạt các vật liệu như PET, HDPE và nhiều sản phẩm khác. OPP Film nổi bật với độ trong suốt và độ bền, là lựa chọn lý tưởng cho nhiều ứng dụng khác nhau, từ đóng gói đến sử dụng trong công nghiệp. Nhất là tính linh hoạt của nó cho phép sử dụng trong việc đóng gói và bảo vệ sản phẩm một cách rất đáng tin cậy, nhấn mạnh vào sự đa dạng của các vật liệu nhựa trong kho hàng của chúng tôi.",
+        "gen_desc":"Xin hãy liên hệ với chúng tôi để thảo luận về các điều khoản kinh doanh thuận lợi. Chúng tôi cam kết sẽ cung cấp giá cả cạnh tranh để đáp ứng yêu cầu của bạn. Chúng tôi trông chờ sự liên hệ từ bạn và hy vọng có cơ hội xây dựng một mối quan hệ kinh doanh lâu dài."
+    },
+    "footer":{
+        "desc": "Chúng tôi mong đợi để bắt đầu hành trình thú vị này cùng bạn! Với sự kết hợp của kiến thức và kinh nghiệm, chúng tôi sẵn sàng biến tầm nhìn của bạn thành hiện thực.",
+        "categories": {
+            "title": "Danh mục",
+            "item1": "Trang Chủ",
+            "item2": "Giới Thiệu",
+            "item3": "Sản Phẩm",
+            "item4": "Liên Hệ"
+        },
+        "company_info":{
+            "title": "Liên hệ với chúng tôi"
+        },
+        "privacy":{
+            "privacy_policy": "Chính sách bảo mật",
+            "terms_of_use": "Điều khoản dịch vụ"
+        }   
+    }
+}

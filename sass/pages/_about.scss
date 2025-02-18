@@ -1,0 +1,75 @@
+.about-body{
+    background-color: $darker-white-col;
+}
+.about-main{
+    @include center-container;
+    padding: $md-padding;
+    padding-top: 15rem;
+    @include respond(tab-port){
+        padding: $sm-padding;
+        padding-top: 15rem;
+    }
+}
+
+.story-mission-section{
+    @include center-container;
+    margin-bottom: $md-margin-bottom;   
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.our-journey-section{
+    @include center-container;
+    background-image: url("/assets/img/about_img/about-img2.svg");
+    background-size: cover;
+    background-position: center;
+    height: 40rem;
+
+    margin-bottom: $md-margin-bottom;   
+    &_content{
+        padding-top: 5rem;
+    }
+}
+
+.trusted-supply-section{
+    margin-bottom:  $md-margin-bottom;  
+}
+
+.get-in-touch-section{
+    margin-bottom:  $md-margin-bottom; 
+    &__content {
+        position: relative;
+        @include respond(tab-port){
+            position: static;
+            display: flex;
+            justify-items: center;
+            align-items: center;
+            flex-direction: column;
+        }
+    }
+    &__content-img{
+       
+    }
+    &__content-img img{
+        max-width: 40rem;
+        @include respond(tab-port){
+            max-width: 100%;
+        }
+    }
+    &__content-text{
+        background-color: $white-col;
+        box-shadow:  0 4px 4px 0 rgba(0, 0, 0, 0.15);
+        position: absolute;
+        max-width: 65rem;
+        padding: 4rem 6rem;
+        top: 50%;
+        left: 30%;
+        transform: translateY(-50%);
+        @include respond(tab-port){
+            position: static;
+            transform: translateY(0);
+            padding: 4rem 3rem;
+            max-width: 100%;
+        }
+    }
+}

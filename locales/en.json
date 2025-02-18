@@ -1,0 +1,234 @@
+{
+    "nav":{
+        "nav_item1":{
+            "name": "Home",
+            "href": "/home",
+            "classname": "nav__list-item-link"
+        },
+        "nav_item2":{
+            "name":"About",
+            "href": "/about",
+            "classname": "nav__list-item-link"
+        },
+        "nav_item3":{
+            "name":"Products",
+            "href": "/products",
+            "classname": "nav__list-item-link"
+        },
+        "nav_item4":{
+            "name":"Contact",
+            "href": "mailto:info@jirehltd.com",
+            "classname": "btn-sm-blue"
+        }
+    },
+    "home_page":{
+        "header": {
+            "heading_part1": "Your Trusted Supplier ",
+            "heading_part2": "of Recycled Materials",
+            "desc": "Trust us to always deliver top-notch service that exceeds your expectations.",
+            "btn":"Get in touch"
+        },
+        "main":{
+            "expansion_overview_section": {
+                "heading_part1": "Jireh ",
+                "heading_part2": "International LTD",
+                "desc": "Jireh International LTD is expanding its presence in global trading and sourcing, with a strong focus on China, Indonesia, and Vietnam. Since 2008, we've exported industrial products to these regions and diversified into consumer goods like cosmetics  and luxury items. With strategic local partnerships, we're planning investments in Vietnam to further strengthen our market position.",
+                "btn":"Learn More"
+            },
+            "why_jireh_section":{
+                "heading_part1": "Why ",
+                "heading_part2": "Choose Jireh?",
+                "projects__completed":"Projects Completed",
+                "years_experience":"Year Of Experience",
+                "professional":"Professional Employees",
+                "partnerships":"Long Term Partnerships"
+            },
+            "services_section":{
+                "heading_part1": "Our ",
+                "heading_part2": "Services",
+                "desc": "We are trading specialized in buy and sell plastic scrap, recycle pellets. Our materials included Post-factory, Post-industrial, Agricultural with multiple plastic kinds such as LDPE, PET, HDPE, PVC, PP, EPS, PMMA, ABS, PC, and more."
+            }
+            
+        }
+    },
+    "about_page":{
+        "heading":{
+            "heading_part1": "About ",  
+            "heading_part2": "Jireh" 
+        },
+        "desc":"Connecting Global Markets with High-Quality Plastic Scrap and Recycled Pellets",
+        "story_mission_section":{
+            "heading":"Our Story and Mission",
+            "desc":"JIREH International Ltd. has been a raw material trader specializing in the buying and selling of plastic scrap and recycled pellets since 2018. We take pride in serving clients worldwide, who trust in our expertise to arrange shipments, whether small or in bulk with confidence."
+        },
+        "our_journey_section":{
+            "heading":{
+                "heading_part1": "Our ",  
+                "heading_part2": "Journey"
+            },
+            "desc": "Jireh has been exporting industrial products to China and Southeast Asian countries, including Vietnam, Indonesia, and Malaysia, since 2008. Since 2020, we have expanded our operations into the plastic industry, specializing in plastic scrap and recycled pellets sourced from Japan, South Korea, Europe, North America, Australia, New Zealand, and the Middle East."
+        },
+        "trusted_supply_section":{
+            "heading":{
+                "heading_part1": "Trusted ",  
+                "heading_part2": "Supply Chains",
+                "heading_part3": " and Logistics"
+            },
+            "cards":{
+                "item1":{
+                    "item_title": "Competitive Prices",
+                    "item_desc": "We ensure our offerings are priced competitively while maintaining uncompromised quality, providing customers with the best value for their investments."
+                },
+                "item2":{
+                    "item_title": "On Time Delivery",
+                    "item_desc": "Our streamlined logistics and efficient operations guarantee timely delivery, ensuring customers receive their orders promptly and reliably."
+                },
+                "item3":{
+                    "item_title": "Quality",
+                    "item_desc": "Upholding rigorous standards and procedures, we prioritize product quality, fostering customer satisfaction and trust in our brand."
+                },
+                "item4":{
+                    "item_title": "Stable Supply Chains",
+                    "item_desc": "With robust inventory management systems, we maintain a consistent and reliable product supply, minimizing disruptions for our customers."
+                }
+            }
+        },
+        "get_in_touch_section":{
+            "heading":"Get in Touch Today!",
+            "desc":{
+                "desc_part1":"Contact us today to discuss your requirements and find the best solutions for your needs. Call us at",
+                "desc_part2":"or reach out via email at"
+            }
+        }
+    },
+
+    "products_page":{
+        "heading":{
+            "heading_part1": "Our ",
+            "heading_part2": "Products"
+        },
+        "cards":{
+            "item1":{
+                "title":"PVC Roll",
+                "src":"/assets/img/products_img/pvc_roll.svg",
+                "href":"#"
+            },
+            "item2":{
+                "title":"LDPE Film",
+                "src":"/assets/img/products_img/ldpe_film.svg",
+                "href":"#"
+            },
+            "item3":{
+                "title":"PS Lump",
+                "src":"/assets/img/products_img/ps_lump.svg",
+                "href":"#"
+            },
+            "item4":{
+                "title":"Pet Sheet Regrind",
+                "src":"/assets/img/products_img/pet_sheet.svg",
+                "href":"#"
+            },
+            "item5":{
+                "title":"Pet Bottle Flake",
+                "src":"/assets/img/products_img/pet_bottle.svg",
+                "href":"#"
+            },
+            "item6":{
+                "title":"PVC Regrind",
+                "src":"/assets/img/products_img/pvc_regrind.svg",
+                "href":"#"
+            },
+            "item7":{
+                "title":"HDPE Regrind",
+                "src":"/assets/img/products_img/hdpe_regrind.svg",
+                "href":"#"
+            },
+            "item8":{
+                "title":"OPP Film",
+                "src":"/assets/img/products_img/opp_film.svg",
+                "href":"#"
+            }
+        }    
+    },
+    "products_page/pvc_roll":{
+        "heading":{
+            "heading_part1": "PVC ",
+            "heading_part2": "Roll"
+        },
+        "desc": "Our inventory boasts PVC rolls as a versatile solution alongside various materials like LDPE, PET, HDPE, and more. PVC rolls offer durability and flexibility, ideal for applications from packaging to construction, showcasing the versatility of plastics.",
+        "gen_desc":"Please don't hesitate to get in touch with us to discuss favorable business terms. We are flexible and committed to providing competitive prices that meet your requirements. We eagerly anticipate your contact and the opportunity to cultivate a long-term business relationship."
+    },
+    "products_page/ldpe_film":{
+        "heading":{
+            "heading_part1": "LDPE ",
+            "heading_part2": "Film"
+        },
+        "desc": "In addition to LDPE film, our inventory features PVC rolls and a range of materials such as PET, HDPE, and more. LDPE film offers versatility for various applications, from packaging to industrial use, highlighting the diverse capabilities of plastics.",
+        "gen_desc":"Please don't hesitate to get in touch with us to discuss favorable business terms. We are flexible and committed to providing competitive prices that meet your requirements. We eagerly anticipate your contact and the opportunity to cultivate a long-term business relationship."
+    },
+    "products_page/ps_lump":{
+        "heading":{
+            "heading_part1": "PS ",
+            "heading_part2": "Lump"
+        },
+        "desc": "Meet PS lump—an essential addition to our inventory, joining the ranks of LDPE, PET, HDPE, and more. Known for its adaptability and durability, PS lump is a versatile solution for a wide range of applications. From packaging to construction, PS lump showcases the diverse potential of plastics.",
+        "gen_desc":"Please don't hesitate to get in touch with us to discuss favorable business terms. We are flexible and committed to providing competitive prices that meet your requirements. We eagerly anticipate your contact and the opportunity to cultivate a long-term business relationship."
+    },
+    "products_page/pet_Sheet":{
+        "heading":{
+            "heading_part1": "Pet ",
+            "heading_part2": "Sheet Regrind"
+        },
+        "desc": "Introducing Pet Sheet Regrind—an esteemed member of our inventory, alongside LDPE, PS lump, HDPE, and more. Renowned for its versatility and sustainability, Pet Sheet Regrind stands out in various applications. Whether utilized in packaging, construction, or beyond, Pet Sheet Regrind exemplifies the diverse capabilities of plastics.",
+        "gen_desc":"Please don't hesitate to get in touch with us to discuss favorable business terms. We are flexible and committed to providing competitive prices that meet your requirements. We eagerly anticipate your contact and the opportunity to cultivate a long-term business relationship."
+    },
+    "products_page/pet_bottle":{
+        "heading":{
+            "heading_part1": "Pet ",
+            "heading_part2": "Bottle Flake"
+        },
+        "desc": "Introducing Pet Bottle Flake—a prized component within our inventory, alongside LDPE, PS lump, HDPE, and more. Recognized for its versatility and eco-friendliness, Pet Bottle Flake is a standout choice for numerous applications. Whether employed in packaging, construction, or other fields, Pet Bottle Flake showcases the diverse potential of plastics.",
+        "gen_desc":"Please don't hesitate to get in touch with us to discuss favorable business terms. We are flexible and committed to providing competitive prices that meet your requirements. We eagerly anticipate your contact and the opportunity to cultivate a long-term business relationship."
+    },
+    "products_page/pvc_regrind":{
+        "heading":{
+            "heading_part1": "PVC ",
+            "heading_part2": "Regrind"
+        },
+        "desc": "Introducing PVC Regrind—a valued asset in our inventory, alongside LDPE, PS lump, HDPE, and more. Known for its versatility and durability, PVC Regrind finds its place in various applications. Whether utilized in packaging, construction, or beyond, PVC Regrind exemplifies the diverse capabilities of plastics.",
+        "gen_desc":"Please don't hesitate to get in touch with us to discuss favorable business terms. We are flexible and committed to providing competitive prices that meet your requirements. We eagerly anticipate your contact and the opportunity to cultivate a long-term business relationship."
+    },
+    "products_page/hdpe_regrind":{
+        "heading":{
+            "heading_part1": "HDPE ",
+            "heading_part2": "Regrind"
+        },
+        "desc": "Introducing HDPE Regrind—a key component in our inventory, standing tall among LDPE, PS lump, PVC Regrind, and more. Esteemed for its versatility and strength, HDPE Regrind is a preferred choice across diverse applications. Whether applied in packaging, construction, or beyond, HDPE Regrind exemplifies the wide-ranging capabilities of plastics.",
+        "gen_desc":"Please don't hesitate to get in touch with us to discuss favorable business terms. We are flexible and committed to providing competitive prices that meet your requirements. We eagerly anticipate your contact and the opportunity to cultivate a long-term business relationship."
+    },
+    "products_page/opp_film":{
+        "heading":{
+            "heading_part1": "OPP ",
+            "heading_part2": "Film"
+        },
+        "desc": "In addition to OPP film, our inventory includes LDPE film, PVC rolls, and a variety of materials such as PET, HDPE, and more. OPP film stands out for its exceptional clarity and strength, making it an ideal choice for a wide range of applications, from packaging to industrial uses. Its versatility allows for showcasing products with clarity while providing reliable protection, underscoring the diverse capabilities of plastic materials in our inventory.",
+        "gen_desc":"Please don't hesitate to get in touch with us to discuss favorable business terms. We are flexible and committed to providing competitive prices that meet your requirements. We eagerly anticipate your contact and the opportunity to cultivate a long-term business relationship."
+    },
+    "footer":{
+        "desc": "We can't wait to begin this exciting journey with you! With our combined expertise and passion, we're poised to turn your vision into reality",
+        "categories": {
+            "title": "Categories",
+            "item1": "Home",
+            "item2": "About",
+            "item3": "Products",
+            "item4": "Contact"
+        },
+        "company_info":{
+            "title": "Connect with Us"
+        },
+        "privacy":{
+            "privacy_policy": "Privacy Policy",
+            "terms_of_use": "Terms of Use"
+        }   
+    }
+ }

@@ -1,0 +1,26 @@
+.header{
+    padding-top: 25vh;
+
+    height: 95vh;
+    background-image: url(/assets/img/homepage_img/hero_section_bg.svg);
+    background-size: cover;
+    background-position: bottom;
+
+    background-color: $darker-white-col;
+    margin-bottom: $lg-margin-bottom;
+
+    @include center-container;
+    &__text-box{
+        padding: $md-padding;
+        @include respond(tab-port){
+            padding: $sm-padding;
+        }
+    }
+
+    @include respond(tab-port){
+        height: 100vh;
+    }
+    @include respond(phone){
+        padding-top: 20vh;
+    }
+}

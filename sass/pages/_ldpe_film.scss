@@ -1,0 +1,14 @@
+
+.ldpe-film-main{
+    padding-top: 15rem;
+}
+
+.ldpe-film-content{
+    @include center-container;
+    padding: $md-padding;
+
+    margin-bottom: 10rem;
+    @include respond(tab-port){
+        padding: $sm-padding;
+    }
+}

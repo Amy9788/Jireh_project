@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Rashi+Hebrew:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Rashi+Hebrew:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>About</title>
+</head>
+<body class="about-body">
+    <%- include('partials/nav') %>
+    <main class="about-main">
+       <h4 class="heading-quaternary text-center">
+            <span class="underline"><%= curr_lang_file["about_page"].heading.heading_part1 %></span>
+            <%= curr_lang_file["about_page"].heading.heading_part2 %>
+        </h4>
+        <p class="general-desc flex-center"><%= curr_lang_file["about_page"].desc %></p>
+        <section class="story-mission-section">
+            <div class="text-stack">
+                <div class="text-content">
+                    <h5 class="heading-quinary text-width-md margin-auto">
+                        <%= curr_lang_file["about_page"].story_mission_section.heading %>
+                    </h5>
+                    <p class="md-font-desc text-width-md margin-auto">
+                        <%= curr_lang_file["about_page"].story_mission_section.desc %>
+                    </p>
+                </div>
+                <div class="img-content">
+                    <img src="/assets/img/about_img/about-img1.svg"/>
+                </div>
+                
+            </div>
+        </section>
+        <section class="our-journey-section">
+            <div class="our-journey-section_content">
+                <h2 class="heading-secondary text-center heading-secondary-white">
+                    <span class="underline">
+                        <%= curr_lang_file["about_page"].our_journey_section.heading.heading_part1 %>
+                    </span>
+                    <%= curr_lang_file["about_page"].our_journey_section.heading.heading_part2 %>
+                </h2>
+                <p class="sm-font-desc sm-font-desc-white text-width-md margin-auto">
+                    <%= curr_lang_file["about_page"].our_journey_section.desc %>
+                </p>
+            </div>
+        </section>
+        <section class="trusted-supply-section">
+            <h2 class="heading-secondary sm-margin-bottom">
+                <span class="underline">
+                    <%= curr_lang_file["about_page"].trusted_supply_section.heading.heading_part1 %>
+                </span>
+                <%= curr_lang_file["about_page"].trusted_supply_section.heading.heading_part2 %> <br/>
+                <%= curr_lang_file["about_page"].trusted_supply_section.heading.heading_part3 %>
+            </h2>
+            <div class="card-simple">
+                <div class="card-simple__item">
+                    <div class="card-simple__item-icon">
+                        <img src="/assets/icon/about_icon/dollar_icon.svg"/>
+                    </div>
+                    <div class="card-simple__item-title">
+                        <%= curr_lang_file["about_page"].trusted_supply_section.cards.item1.item_title %>
+                    </div>
+                    <div class="card-simple__item-desc">
+                        <%= curr_lang_file["about_page"].trusted_supply_section.cards.item1.item_desc %>
+                    </div>
+                </div>
+                <div class="card-simple__item">
+                    <div class="card-simple__item-icon">
+                        <img src="/assets/icon/about_icon/truck_icon.svg"/>
+                    </div>
+                    <div class="card-simple__item-title">
+                        <%= curr_lang_file["about_page"].trusted_supply_section.cards.item2.item_title %>
+                    </div>
+                    <div class="card-simple__item-desc">
+                        <%= curr_lang_file["about_page"].trusted_supply_section.cards.item2.item_desc %>
+                    </div>
+                </div>
+                <div class="card-simple__item">
+                    <div class="card-simple__item-icon">
+                        <img src="/assets/icon/about_icon/shield_icon.svg"/>
+                    </div>
+                    <div class="card-simple__item-title">
+                        <%= curr_lang_file["about_page"].trusted_supply_section.cards.item3.item_title %>
+                    </div>
+                    <div class="card-simple__item-desc">
+                        <%= curr_lang_file["about_page"].trusted_supply_section.cards.item3.item_desc %>
+                    </div>
+                </div>
+                <div class="card-simple__item">
+                    <div class="card-simple__item-icon">
+                        <img src="/assets/icon/about_icon/diamond_icon.svg"/>
+                    </div>
+                    <div class="card-simple__item-title">
+                        <%= curr_lang_file["about_page"].trusted_supply_section.cards.item4.item_title %>
+                    </div>
+                    <div class="card-simple__item-desc">
+                        <%= curr_lang_file["about_page"].trusted_supply_section.cards.item4.item_desc %>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="get-in-touch-section">
+            <div class="get-in-touch-section__content">
+                <div class="get-in-touch-section__content-img">
+                    <img src="/assets/img/about_img/about-img4.svg"/>
+                </div>
+                <div class="get-in-touch-section__content-text">
+                    <h2 class="heading-secondary">
+                        <%= curr_lang_file["about_page"].get_in_touch_section.heading %>
+                    </h2>
+                    <p class="md-font-desc">
+                        <%= curr_lang_file["about_page"].get_in_touch_section.desc.desc_part1 %>
+                        <strong>+82 10 6768 2690</strong> <%= curr_lang_file["about_page"].get_in_touch_section.desc.desc_part2 %>
+                        <strong>info@jirehltd.com</strong>.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <%- include('partials/footer') %>
+    <script src="/js/index.js"></script>
+</body>
+</html>

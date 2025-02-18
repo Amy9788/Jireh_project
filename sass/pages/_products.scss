@@ -1,0 +1,10 @@
+.products-body{
+    background-color: $darker-white-col;
+}
+
+.products-main{
+    @include center-container;
+    padding: $md-padding;
+    padding-top: 15rem;
+    margin-bottom:  $md-margin-bottom; 
+}

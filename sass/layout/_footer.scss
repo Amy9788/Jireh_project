@@ -1,0 +1,47 @@
+.footer{
+    padding: $md-padding;
+    margin-bottom: $sm-margin-bottom;
+    @include respond(tab-port){
+        padding: $sm-padding;
+    }
+
+    &__content{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 2rem;
+        @include center-container;
+        @include respond(tab-port){
+            justify-items: center;
+            flex-direction: row;
+            gap: 3.5rem;
+        }
+    }
+
+    &__list{
+        list-style: none;
+
+    }
+    &__list-item{
+        margin-bottom: 1rem;
+        font-size: 1.8rem;
+        cursor: pointer;
+    }
+
+    &__info{
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        max-width: 30rem;
+
+        font-size: 1.8rem;
+
+        margin-bottom: 1.4rem;
+    }
+    &__info-icon{
+        width: 2rem;
+        margin-right: 1.4rem;
+    }
+
+}
+

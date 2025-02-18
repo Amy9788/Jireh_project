@@ -1,0 +1,29 @@
+.copyright{
+    font-size: 1.8rem;
+    color: $light-gray-col;
+    font-weight: 500;
+    &__content{
+        @include center-container;
+        display: flex;
+        justify-content: space-between;
+        @include respond(small-tablet){
+            flex-direction: column;
+        }
+    }
+    &__content-item{
+        margin-bottom: 1rem;
+    }
+}
+.privacy-list{
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    @include respond(small-tablet){
+        flex-direction: column;
+    }
+}
+
+.privacy-item-link{
+    text-decoration: none;
+    color: $light-gray-col;
+}

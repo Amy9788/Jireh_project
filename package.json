@@ -1,0 +1,20 @@
+{
+  "name": "jireh_project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss public/css/style.css -w"
+  },
+  "author": "Amy",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "node-sass": "^9.0.0",
+    "sass": "^1.83.4"
+  }
+}

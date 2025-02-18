@@ -1,0 +1,61 @@
+
+.expansion-overview-section{
+    margin-bottom: $lg-margin-bottom;
+    @include center-container;
+    padding: $md-padding;
+    .mobile-img{
+        display: none;
+    }
+    .desktop-img{
+        margin-left: 3.5rem;
+    }
+    .desktop-img img{
+        width: 100%;
+    }
+
+    @include respond(tab-port){
+        padding: $sm-padding;
+        .mobile-img{
+            display: block;
+            margin-bottom: $sm-margin-bottom;
+        }
+        .mobile-img img{
+            width: 100%;
+        }
+        .desktop-img{
+            display: none;
+        }        
+    }
+}
+
+.why-jireh-section{
+    margin-bottom: $lg-margin-bottom;
+    @include center-container;
+    padding: $md-padding;
+    @include respond(tab-port){
+        padding: $sm-padding;
+    }
+}
+
+.services-section{
+    margin-bottom: $md-margin-bottom;
+    background-image: url(/assets/img/homepage_img/services_section_bg.svg);
+    background-size: cover;
+    background-position: bottom;
+    height: 40rem;
+    padding: $md-padding;
+    &__content{
+        padding-top: 10rem;
+        @include center-container;
+        max-width: 80rem;
+        @include respond(phone){
+            padding-top: 6rem;
+        }
+    }
+    @include respond(tab-port){
+        padding: $sm-padding;
+    }
+    @include respond(phone){
+        height: 50rem;
+    }
+}

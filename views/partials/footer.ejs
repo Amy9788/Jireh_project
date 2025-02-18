@@ -1,0 +1,64 @@
+<footer class="footer">
+    <div class="line"></div>
+    <div class="footer__content">
+        <div class="footer__content-item">
+            <a href="#">
+                <img src="/assets/icon/nav_icon/logo.svg" class="sx-margin-bottom"/>
+            </a>
+            <p class="general-desc general-desc-gray text-width-md">
+                <%= curr_lang_file["footer"].desc %>
+            </p>
+        </div>
+        <div class="footer__content-item">
+            <h3 class="heading-tertiary">
+                <%= curr_lang_file["footer"].categories.title %>
+            </h3>
+            <ul class="footer__list">
+                <li class="footer__list-item"><%= curr_lang_file["footer"].categories.item1 %></li>
+                <li class="footer__list-item"><%= curr_lang_file["footer"].categories.item2 %></li>
+                <li class="footer__list-item"><%= curr_lang_file["footer"].categories.item3 %></li>
+            </ul>
+        </div>
+        <div class="footer__content-item">
+            <h3 class="heading-tertiary">
+                <%= curr_lang_file[ "footer"].company_info.title %>
+            </h3>
+            <a class="footer__info">
+                <img src="/assets/icon/footer_icon/location_icon.svg" class="footer__info-icon"/>
+                <p>
+                    No.L08 22 Floors Centumseo-Rd
+                    30 KNN building Heaundae-Gu
+                    Busan Korea
+                </p>
+            </a>
+            <a class="footer__info">
+                <img src="/assets/icon/footer_icon/mail_icon.svg" class="footer__info-icon"/>
+                <p>
+                    info@jirehltd.com
+                </p>
+            </a>
+            <a class="footer__info">
+                <img src="/assets/icon/footer_icon/phone_icon.svg" class="footer__info-icon">
+                <p>
+                    +82 10 6768 2690
+                </p>
+            </a>
+        </div>
+    </div>
+    <div class="copyright">
+        <div class="line"></div>
+        <div class="copyright__content">
+            <div class="copyright__content-item">©2025 by designwithamy.  All Rights Reserved.</div>
+            <div class="copyright__content-item">
+                <ul class="privacy-list">
+                    <li class="privacy-item">
+                        <a href="" class="privacy-item-link"><%= curr_lang_file[ "footer"].privacy.privacy_policy %></a>
+                    </li>
+                    <li class="privacy-item">
+                        <a href="" class="privacy-item-link"><%= curr_lang_file[ "footer"].privacy.terms_of_use %></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>

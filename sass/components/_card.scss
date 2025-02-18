@@ -1,0 +1,113 @@
+.card{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 40rem;
+    max-width: $max-width;
+    gap: 3rem;
+    @include respond(tab-port){
+        flex-wrap: wrap;
+        justify-content: start;
+        height: fit-content;
+    }
+   
+    &__item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: $white-col;
+
+        // top-right-bottom-left
+        padding: 4rem 2rem;
+        // aspect-ratio: 1;
+        width: 25rem;
+    
+        text-align: center;
+        @include respond(tab-port){
+            margin-left: auto;
+            margin-right: auto;
+            height: 25rem;
+        }
+    }
+
+    .selected {
+        align-self: center;
+    }
+    &__item-icon{
+        margin-bottom: 1.4rem;
+    }
+
+    &__item-icon img{
+        width: 8rem;
+    }
+    &__item-number{
+        font-size: 4.2rem;
+        color: $dark-gray-col;
+        margin-bottom: 1.4rem;
+    }
+
+    &__item-desc{
+        font-size: 2rem;
+    }
+}
+
+.card-simple {
+    display: flex;
+    gap: 2rem;
+    @include respond(tab-land){
+        flex-direction: column;
+    }
+    &__item{
+        background-color: $white-col;
+        padding: 2rem 4rem;
+    }
+    &__item-icon{
+        
+        margin-bottom: 1.4rem;
+    }
+    &__item-title{
+        font-family:$title-font;
+        font-size: 2.4rem;
+        color: $dark-gray-col;
+        margin-bottom: 1.4rem;
+    }
+    &__item-desc{
+        font-family: $text-font;
+        font-size: 1.6rem;
+        font-weight: 300;
+        line-height: 1.5;
+        color: $dark-gray-col;
+        margin-bottom: 1.4rem;
+    }
+}
+
+.clickable-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    &__item{
+        background-color: $white-col;
+        padding-bottom: 5rem;
+        text-decoration: none;
+        color: $black-col;
+        box-shadow:  0 4px 4px 0 rgba(0, 0, 0, 0.03);
+        transition: all 0.3s ease;
+        cursor: pointer;
+    }
+    &__item:hover {
+        transform: scale(1.05) translateX(.05rem);
+    }
+
+    &__item-img img{
+        max-width: 30rem;
+    }
+    &__item-title{
+        font-family: $title-font;
+        font-size: 1.8rem;
+        font-weight: 700;
+        text-align: center;
+        margin-top: 1.8rem;
+    }
+}

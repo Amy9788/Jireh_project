@@ -1,0 +1,53 @@
+
+<div class="nav">
+    <nav class="nav__wrapper">
+        <input type="checkbox" name="check" id="check">
+        <div class="logo">
+            <a href="/home">
+                <img src="/assets/icon/nav_icon/logo.svg"/>
+            </a>
+        </div>
+        <div class="hamburger-menu">
+            <div class="line-1"></div>
+            <div class="line-2"></div>
+            <div class="line-3"></div>
+        </div>
+        <ul class="nav__list">
+            <% for (let key in curr_lang_file["nav"]) { %>
+                <li class="nav__list-item">
+                    <a href="<%= curr_lang_file["nav"][key].href %>" class="<%= curr_lang_file["nav"][key].classname%>">
+                        <%= curr_lang_file["nav"][key].name %>
+                    </a>
+                </li>
+            <% } %>
+            <li class="nav__list-item nav__dropdown-list">
+                <button class="dropbtn" onclick="dropbtn()">
+                    <a href="<%= languages[curr_lang].href %>" class="lang-option" data-lang="vi">
+                        <img src="/assets/icon/lang_icon/<%= languages[curr_lang].icon %>" class="lang-icon"/>
+                    </a>
+                    <img src="/assets/icon/nav_icon/arrow_drop_down_icon.svg" class="drop_down_icon"/>
+                </button>
+                <div class="dropdown-content language-switcher" id="dropdown-content">
+                    <a href="<%= languages[curr_lang].href %>" class="lang-option curr-lang-mobile" data-lang="vi">
+                        <img src="/assets/icon/lang_icon/<%= languages[curr_lang].icon %>" class="lang-icon"/>
+                    </a>
+                    <% for (let key in languages) { %>
+                        <!-- Only render languages that are not the current language -->
+                        <% if (key !== curr_lang) { %>
+                            <a href="<%= languages[key].href %>" class="lang-option" data-lang="vi">
+                                <img src="/assets/icon/lang_icon/<%= languages[key].icon %>" class="lang-icon"/>
+                            </a>
+                        <% } %>
+                    <% } %>
+                </div>
+                <div class="dropdown-content-mobile">
+                    <% for (let key in languages) { %>
+                        <a href="<%= languages[key].href %>" class="lang-option" data-lang="vi">
+                            <img src="/assets/icon/lang_icon/<%= languages[key].icon %>" class="lang-icon"/>
+                        </a>
+                    <% } %>
+                </div>
+            </li>
+        </ul>
+    </nav>
+</div>

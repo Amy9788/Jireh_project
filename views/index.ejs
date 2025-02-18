@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="We are trading specialized in buy and sell plastic scrap, recycle pellets. Our materials included Post-factory, Post-industrial, Agricultural with multiple plastic kinds such as LDPE, PET, HDPE, PVC, PP, EPS, PMMA, ABS, PC, and more.">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Rashi+Hebrew:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Rashi+Hebrew:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Jireh</title>
+</head>
+<body class="body">
+    <%- include('partials/nav') %>
+    <header class="header">
+        <div class="header__text-box">
+            <h1 class="heading-primary">
+                <span class="line-break">
+                    <%= curr_lang_file["home_page"].header.heading_part1 %>
+                </span>
+                <span>
+                    <%= curr_lang_file["home_page"].header.heading_part2 %>
+                </span>
+            </h1>
+            <p class="intro-text md-margin-bottom text-width-md">
+                <%= curr_lang_file["home_page"].header.desc %>
+            </p>
+            <a href="mailto:info@jirehltd.com" class="btn btn-red">
+                <%= curr_lang_file["home_page"].header.btn %>
+            </a>
+        </div>
+    </header>
+    <main class="main-home">
+        <section class="expansion-overview-section flex">
+            <div class="flex__item text-width">
+                <h2 class="heading-secondary">
+                    <span class="underline">
+                        <%= curr_lang_file["home_page"].main.expansion_overview_section.heading_part1 %>
+                    </span>
+                    <%= curr_lang_file["home_page"].main.expansion_overview_section.heading_part2 %>
+                </h2>
+                <div class="mobile-img">
+                    <img src="/assets/img/homepage_img/overview_bulding.svg"/>
+                </div>
+                <p class="general-desc md-margin-bottom">
+                    <%= curr_lang_file["home_page"].main.expansion_overview_section.desc %>
+                </p>
+                <a href="/about" class="btn btn-gray">
+                    <%= curr_lang_file["home_page"].main.expansion_overview_section.btn %>
+                </a>
+            </div>
+            <div class="flex__item desktop-img">
+                <img src="/assets/img/homepage_img/overview_bulding.svg"/>
+            </div>
+        </section>
+        <section class="why-jireh-section">
+            <h2 class="heading-secondary sm-margin-bottom">
+                <span class="underline">
+                    <%= curr_lang_file["home_page"].main.why_jireh_section.heading_part1 %>
+                </span>
+                <%= curr_lang_file["home_page"].main.why_jireh_section.heading_part2 %>
+            </h2>
+            <div class="card">
+                <div class="card__item">
+                    <div class="card__item-icon">
+                        <img src="/assets/icon/homepage_icon/check_icon.svg"/>
+                    </div>
+                    <div class="card__item-number">
+                        25+
+                    </div>
+
+                    <div class="card__item-desc">
+                        <%= curr_lang_file["home_page"].main.why_jireh_section.projects__completed %>
+                    </div>
+                </div>
+                
+                <div class="card__item selected">
+                    <div class="card__item-icon">
+                        <img src="/assets/icon/homepage_icon/anchor_icon.svg"/>
+                    </div>
+                    <div class="card__item-number">
+                        15+
+                    </div>
+
+                    <div class="card__item-desc">
+                        <%= curr_lang_file["home_page"].main.why_jireh_section.years_experience %>
+                    </div>
+                </div>
+             
+
+                <div class="card__item">
+                    <div class="card__item-icon">
+                        <img src="/assets/icon/homepage_icon/group_icon.svg"/>
+                    </div>
+                    <div class="card__item-number">
+                        21+
+                    </div>
+
+                    <div class="card__item-desc">
+                        <%= curr_lang_file["home_page"].main.why_jireh_section.professional %>
+                    </div>
+                </div>
+                
+                <div class="card__item selected">
+                    <div class="card__item-icon">
+                        <img src="/assets/icon/homepage_icon/handshake_icon.svg"/>
+                    </div>
+                    <div class="card__item-number">
+                        25+
+                    </div>
+
+                    <div class="card__item-desc">
+                        <%= curr_lang_file["home_page"].main.why_jireh_section.partnerships %>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="services-section">
+            <div class="services-section__content">
+                <h2 class="heading-secondary sm-margin-bottom text-center text-white">
+                    <span class="underline">
+                        <%= curr_lang_file["home_page"].main.services_section.heading_part1 %>
+                    </span>
+                    <%= curr_lang_file["home_page"].main.services_section.heading_part2 %>
+                </h2>
+                <p class="general-desc general-desc-white">
+                    <%= curr_lang_file["home_page"].main.services_section.desc %>
+                </p>
+            </div>
+        </section>
+    </main>
+    <%- include('partials/footer') %>
+    <script src="/js/index.js"></script>
+</body>
+</html>

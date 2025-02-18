@@ -1,0 +1,22 @@
+{
+    "en":{
+        "href": "?lang=en",
+        "name": "English",
+        "icon": "english_icon.svg"
+    },
+    "vi":{
+        "href": "?lang=vi",
+        "name": "Vietnamese",
+        "icon": "vietnamese_icon.svg"
+    },
+    "zh":{
+        "href": "?lang=zh",
+        "name": "Chinese",
+        "icon": "chinese_icon.svg"
+    },
+    "th":{
+        "href": "?lang=th",
+        "name": "Thai",
+        "icon": "thai_icon.svg"
+    }  
+}

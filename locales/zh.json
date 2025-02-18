@@ -1,0 +1,233 @@
+{
+    "nav": {
+        "nav_item1":{
+            "name": "首页",
+            "href": "/home",
+            "classname": "nav__list-item-link"
+        },
+        "nav_item2":{
+            "name":"关于我们",
+            "href": "/about",
+            "classname": "nav__list-item-link"
+        },
+        "nav_item3":{
+            "name":"产品",
+            "href": "/products",
+            "classname": "nav__list-item-link"
+        },
+        "nav_item4":{
+            "name":"联系我们",
+            "href": "mailto:info@jirehltd.com",
+            "classname": "btn-sm-blue"
+        }
+    },
+    "home_page": {
+        "header": {
+            "heading_part1": "您信赖的供应商",
+            "heading_part2": "回收材料",
+            "desc": "相信我们，我们始终提供超出您期望的顶级服务。",
+            "btn": "联系我们"
+        },
+        "main": {
+            "expansion_overview_section": {
+                "heading_part1": "Jireh",
+                "heading_part2": "International LTD",
+                "desc": "Jireh International LTD 正在扩大其在全球贸易和采购领域的影响力，重点关注中国、印度尼西亚和越南。自2008年以来，我们已将工业产品出口到这些地区，并扩展到消费品领域，如化妆品和奢侈品。通过与本地合作伙伴的战略合作，我们计划在越南进行投资，以进一步巩固我们的市场地位。",
+                "btn": "了解更多"
+            },
+            "why_jireh_section": {
+                "heading_part1": "为什么",
+                "heading_part2": "选择 Jireh?",
+                "projects__completed": "已完成项目",
+                "years_experience": "经验年数",
+                "professional": "专业员工",
+                "partnerships": "长期合作关系"
+            },
+            "services_section": {
+                "heading_part1": "我们的",
+                "heading_part2": "服务",
+                "desc": "我们专注于收购和销售塑料废料、回收颗粒。我们的材料包括后厂、后工业和农业塑料，涵盖多种类型的塑料，如 LDPE、PET、HDPE、PVC、PP、EPS、PMMA、ABS、PC 等。"
+            }
+        }
+    },
+    "about_page":{
+        "heading":{
+            "heading_part1": "关于",  
+            "heading_part2": "Jireh 的介绍" 
+        },
+        "desc":"将全球市场与高质量塑料废料和回收颗粒连接起来",
+        "story_mission_section":{
+            "heading":"我们的旅程",
+            "desc":"自2008年以来，Jireh一直在向中国和东南亚国家出口工业产品，包括越南、印度尼西亚和马来西亚。 自2020年起，我们已将业务扩展到塑料行业，专注于从日本、韩国、欧洲、北美、澳大利亚、 新西兰和中东地区采购的塑料废料和回收颗粒。"
+        },
+        "our_journey_section":{
+            "heading":{
+                "heading_part1": "我们",  
+                "heading_part2": "的旅程"
+            },
+            "desc": "自2008年以来，Jireh一直在向中国和东南亚国家出口工业产品，包括越南、印度尼西亚和马来西亚。 自2020年起，我们已将业务扩展到塑料行业，专注于从日本、韩国、欧洲、北美、澳大利亚、 新西兰和中东地区采购的塑料废料和回收颗粒。"
+        },
+        "trusted_supply_section":{
+            "heading":{
+                "heading_part1": "可信",  
+                "heading_part2": "赖的供应链和物流",
+                "heading_part3": ""
+            },
+            "cards":{
+                "item1":{
+                    "item_title": "具有竞争力的价格",
+                    "item_desc": "我们确保我们的产品价格具有竞争力，同时保持品质不变，为客户提供最佳的投资价值。"
+                },
+                "item2":{
+                    "item_title": "准时交付",
+                    "item_desc": "我们简化的物流和高效的操作确保了及时交付，确保客户及时可靠地收到他们的订单。"
+                },
+                "item3":{
+                    "item_title": "质量",
+                    "item_desc": "我们坚持严格的标准和程序，优先考虑产品质量，培养客户对我们品牌的满意度和信任。"
+                },
+                "item4":{
+                    "item_title": "稳定的供应链",
+                    "item_desc": "通过强大的库存管理系统，我们保持产品供应的一致性和可靠性，最大程度地减少了客户的中断。"
+                }
+            }
+        },
+        "get_in_touch_section":{
+            "heading":"今天联系我们",
+            "desc":{
+                "desc_part1":"今天联系我们，讨论您的需求并找到最适合您的解决方案。请致电  或通过电子邮件联系",
+                "desc_part2":" 或通过电子邮件联系 "
+            }
+        }
+    },
+    "products_page":{
+        "heading":{
+            "heading_part1": "我们的",
+            "heading_part2": "产品"
+        },
+        "cards":{
+            "item1":{
+                "title":"PVC 卷",
+                "src":"/assets/img/products_img/pvc_roll.svg",
+                "href":"#"
+            },
+            "item2":{
+                "title":"LDPE 薄膜",
+                "src":"/assets/img/products_img/ldpe_film.svg",
+                "href":"#"
+            },
+            "item3":{
+                "title":"PS 块料",
+                "src":"/assets/img/products_img/ps_lump.svg",
+                "href":"#"
+            },
+            "item4":{
+                "title":"PET片材再生料",
+                "src":"/assets/img/products_img/pet_sheet.svg",
+                "href":"#"
+            },
+            "item5":{
+                "title":"PET瓶片",
+                "src":"/assets/img/products_img/pet_bottle.svg",
+                "href":"#"
+            },
+            "item6":{
+                "title":"PVC 再生料",
+                "src":"/assets/img/products_img/pvc_regrind.svg",
+                "href":"#"
+            },
+            "item7":{
+                "title":"HDPE再生料",
+                "src":"/assets/img/products_img/hdpe_regrind.svg",
+                "href":"#"
+            },
+            "item8":{
+                "title":"OPP薄膜",
+                "src":"/assets/img/products_img/opp_film.svg",
+                "href":"#"
+            }
+        }  
+        
+    },
+    "products_page/pvc_roll":{
+        "heading":{
+            "heading_part1": "PVC",
+            "heading_part2": "卷"
+        },
+        "desc": "我们的库存拥有PVC卷材，作为一种多功能解决方案，与LDPE、PET、HDPE等各种材料并列。 PVC卷材具有耐用性和灵活性，非常适用于从包装到建筑等各种应用，展示了塑料的多样性。",
+        "gen_desc":"请随时与我们联系，讨论有利的商务条款。我们灵活并致力于提供符合您要求的竞争价格。 我们急切期待您的联系，并期待着培养长期的商业关系的机会。"
+    },
+    "products_page/ldpe_film":{
+        "heading":{
+            "heading_part1": "LDPE",
+            "heading_part2": "薄膜"
+        },
+        "desc": "除了LDPE薄膜外，我们的库存还包括PVC卷材以及PET、HDPE等多种材料。LDPE薄膜在各种应用中都具有多功能性，从包装到工业用途，突显了塑料的多样化能力。",
+        "gen_desc":"请随时与我们联系，讨论有利的商务条款。我们灵活并致力于提供符合您要求的竞争价格。 我们急切期待您的联系，并期待着培养长期的商业关系的机会。"
+    },
+    "products_page/ps_lump":{
+        "heading":{
+            "heading_part1": "PS ",
+            "heading_part2": "块料"
+        },
+        "desc": "让我们认识一下PS块——它是我们库存中的一个必不可少的新增品，与LDPE、PET、HDPE等并列。PS块以其适应性和耐用性而闻名，是各种应用的多功能解决方案。无论是在包装还是建筑方面，PS块都展示了塑料的多样潜力。",
+        "gen_desc":"请随时与我们联系，讨论有利的商务条款。我们灵活并致力于提供符合您要求的竞争价格。 我们急切期待您的联系，并期待着培养长期的商业关系的机会。"
+    },
+    "products_page/pet_Sheet":{
+        "heading":{
+            "heading_part1": "PET",
+            "heading_part2": "片材再生料"
+        },
+        "desc": "让我们介绍一下PET片材再生料——它是我们库存中备受推崇的一员，与LDPE、PS lump、HDPE等并列。PET片材再生料 以其多功能性和可持续性而闻名，在各种应用中脱颖而出。无论是在包装、建筑，或者其他领域，PET片材再生料 都展示了塑料的多样化能力。",
+        "gen_desc":"请随时与我们联系，讨论有利的商务条款。我们灵活并致力于提供符合您要求的竞争价格。 我们急切期待您的联系，并期待着培养长期的商业关系的机会。"
+    },
+    "products_page/pet_bottle":{
+        "heading":{
+            "heading_part1": "PET",
+            "heading_part2": "瓶片"
+        },
+        "desc": "让我们介绍一PET瓶片——它是我们库存中备受珍视的一部分，与LDPE、PS lump、HDPE等并列。PET瓶片 以其多功能性和环保性而广受认可，在众多应用中脱颖而出。无论是用于包装、建筑，还是其他领域，PET瓶片 都展示了塑料的多样潜力",
+        "gen_desc":"请随时与我们联系，讨论有利的商务条款。我们灵活并致力于提供符合您要求的竞争价格。 我们急切期待您的联系，并期待着培养长期的商业关系的机会。"
+    },
+    "products_page/pvc_regrind":{
+        "heading":{
+            "heading_part1": "PVC ",
+            "heading_part2": "再生料"
+        },
+        "desc": "让我们介绍一下PVC回收料——它是我们库存中备受重视的一项资产，与LDPE、PS块、HDPE等并列。 PVC回收料以其多功能性和耐用性而闻名，在各种应用中都有其用武之地。无论是用于包装、建筑，还是其他领域，PVC回收料都展示了塑料的多样化能力。",
+        "gen_desc":"请随时与我们联系，讨论有利的商务条款。我们灵活并致力于提供符合您要求的竞争价格。 我们急切期待您的联系，并期待着培养长期的商业关系的机会。"
+    },
+    "products_page/hdpe_regrind":{
+        "heading":{
+            "heading_part1": "HDPE",
+            "heading_part2": "再生料"
+        },
+        "desc": "让我们介绍一下HDPE回收料——它是我们库存中的关键组成部分，在LDPE、PS块、PVC回收料等诸多材料中脱颖而出。HDPE回收料以其多功能性和强度而备受推崇，在各种应用中都是首选。无论是在包装、建筑，还是其他领域，HDPE回收料都展示了塑料的广泛能力。",
+        "gen_desc":"请随时与我们联系，讨论有利的商务条款。我们灵活并致力于提供符合您要求的竞争价格。 我们急切期待您的联系，并期待着培养长期的商业关系的机会。"
+    },
+    "products_page/opp_film":{
+        "heading":{
+            "heading_part1": "OPP",
+            "heading_part2": "薄膜"
+        },
+        "desc": "除了OPP薄膜外，我们的库存还包括LDPE薄膜、PVC卷材以及PET、HDPE等各种材料。OPP薄膜以其卓越的透明度和强度脱颖而出，使其成为从包装到工业用途等各种应用的理想选择。其多功能性使其能够清晰展示产品同时提供可靠的保护，突显了我们库存中塑料材料的多样化能力。",
+        "gen_desc":"请随时与我们联系，讨论有利的商务条款。我们灵活并致力于提供符合您要求的竞争价格。 我们急切期待您的联系，并期待着培养长期的商业关系的机会。"
+    },
+    "footer":{
+        "desc": "我们迫不及待地与您开始这段激动人心的旅程！凭借我们的专业知识和热情， 我们已经做好了将您的愿景变成现实的准备。",
+        "categories": {
+            "title": "分类",
+            "item1": "首页",
+            "item2": "关于我们",
+            "item3": "产品",
+            "item4": "联系我们"
+        },
+        "company_info":{
+            "title": "联系我们"
+        },
+        "privacy":{
+            "privacy_policy": "隐私政策",
+            "terms_of_use": "使用条款"
+        }   
+    }
+}

@@ -1,0 +1,13 @@
+.ps-lump-main{
+    padding-top: 15rem;
+}
+
+.ps-lump-content{
+    @include center-container;
+    padding: $md-padding;
+
+    margin-bottom: 10rem;
+    @include respond(tab-port){
+        padding: $sm-padding;
+    }
+}
